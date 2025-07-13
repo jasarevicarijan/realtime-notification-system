@@ -53,13 +53,13 @@ frontend/
    composer install
    ```
 
-3. Start the WebSocket server:
+3. Start the WebSocket server inside the backend directory(open console in backend):
 
    ```bash
    php server.php
    ```
 
-4. Start the PHP built-in server for the REST API endpoint:
+4. Start the PHP built-in server for the REST API endpoint inside the `public` directory(open console in backend):
 
    ```bash
    php -S localhost:8081 -t public
